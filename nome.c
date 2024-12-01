@@ -7,6 +7,6 @@ int main(){
     if (numero % 2 == 0) {
         printf("numero par");
     }else{
-        printf("numero impar");
+        printf("numero impar!!");
     }
 }
