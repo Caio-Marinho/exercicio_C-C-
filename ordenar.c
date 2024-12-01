@@ -8,8 +8,8 @@ void ordenador(int N[], int copia[]) {
     }
 
     // Ordena a cópia
-    for (int i = 0; i < 10 - 1; i++) {
-        for (int j = 0; j < 10 - 1 - i; j++) {
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10-1-i; j++) {
             if (copia[j] > copia[j + 1]) {
                 aux = copia[j];
                 copia[j] = copia[j + 1];
